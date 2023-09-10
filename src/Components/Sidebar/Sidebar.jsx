@@ -11,7 +11,7 @@ import { RxDashboard } from "react-icons/rx";
 import { MdOutlinePayment } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 
-const Sidebar = ({ issidebaropen }) => {
+const Sidebar = ({ issidebaropen, setissidebaropen }) => {
   const navigate = useNavigate();
 
   function handlenavigate(key) {
@@ -30,6 +30,7 @@ const Sidebar = ({ issidebaropen }) => {
     } else if (key === "Profile") {
       navigate("/profile");
     }
+    setissidebaropen((prev) => !prev);
   }
 
   return (

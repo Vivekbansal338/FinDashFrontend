@@ -45,3 +45,24 @@
   background-color: var(--purple-color);
   transform: scale(1.1);
 }
+
+@media (max-width: 1100px) {
+  .detailloanpage-third {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .detailloanpage-third {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .detailloanpage-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

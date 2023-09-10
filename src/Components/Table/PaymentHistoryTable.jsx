@@ -55,11 +55,11 @@ function PaymentHistoryTable({ title, data }) {
         accessor: "PaymentId",
         Filter: TextFilter,
         sortType: "basic",
-        Cell: ({ row }) => (
-          <Link to={`/loans/${row.original.PaymentId}`}>
-            {row.original.PaymentId}
-          </Link>
-        ),
+        // Cell: ({ row }) => (
+        //   <Link to={`/loans/${row.original.PaymentId}`}>
+        //     {row.original.PaymentId}
+        //   </Link>
+        // ),
       },
       {
         Header: "Amount",

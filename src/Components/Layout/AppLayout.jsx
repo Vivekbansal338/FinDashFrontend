@@ -9,7 +9,7 @@ import "./AppLayout.css";
 const AppLayout = () => {
   const navigate = useNavigate();
   const { isAuthenticated } = useSelector((state) => state.auth);
-  const [issidebaropen, setissidebaropen] = useState(false);
+  const [issidebaropen, setissidebaropen] = useState(true);
 
   useEffect(() => {
     if (!isAuthenticated) {
@@ -20,7 +20,10 @@ const AppLayout = () => {
   return (
     <div className="applayout">
       <Header setissidebaropen={setissidebaropen} />
-      <Sidebar issidebaropen={issidebaropen} />
+      <Sidebar
+        issidebaropen={issidebaropen}
+        setissidebaropen={setissidebaropen}
+      />
       <div
         className={`app-main-container ${issidebaropen ? "expandsidebar" : ""}`}
       >

@@ -30,7 +30,6 @@ const Sidebar = ({ issidebaropen, setissidebaropen }) => {
     } else if (key === "Profile") {
       navigate("/profile");
     }
-    setissidebaropen((prev) => !prev);
   }
 
   return (

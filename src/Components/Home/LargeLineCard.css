@@ -1,0 +1,26 @@
+.largelinecard {
+  width: 100%;
+  background-color: var(--front-color);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.largelinecard-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.largelinecard-main {
+  width: 100%;
+}
+
+.linechart-year-select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}

@@ -1,0 +1,9 @@
+/* Header Wrapper Styles */
+.header-wrapper {
+  background-color: #333; /* Set the background color for the header */
+  color: white; /* Set text color */
+  padding: 20px; /* Add padding as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+
+/* Add any additional styling as needed */

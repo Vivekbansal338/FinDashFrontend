@@ -1,0 +1,42 @@
+.borrowerpage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.borrowerpage-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.addborrowerbutton {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: var(--purple-color);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.addborrowerbutton:hover {
+  background-color: var(--purple-color);
+  transform: scale(1.1);
+}
+
+.borrowerpage-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--front-color);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+}
+
+.borrowerpagemain-table {
+  padding: 1rem 1rem;
+  overflow: auto;
+}

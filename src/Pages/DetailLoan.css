@@ -1,0 +1,47 @@
+.detailloanpage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.detailloanpage-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.detailloanpage-third {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.detailloanpage-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--front-color);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+}
+
+.detailloanpagemain-table {
+  padding: 1rem 1rem;
+  overflow: auto;
+}
+
+.collectpaymentbutton {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: var(--purple-color);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.collectpaymentbutton:hover {
+  background-color: var(--purple-color);
+  transform: scale(1.1);
+}

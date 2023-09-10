@@ -1,0 +1,24 @@
+.loanpage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loanpage-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.loanpage-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--front-color);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+}
+
+.loanpagemain-table {
+  padding: 1rem 1rem;
+  overflow: auto;
+}

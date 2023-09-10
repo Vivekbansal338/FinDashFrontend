@@ -1,0 +1,24 @@
+.smalldatacard {
+  width: 100%;
+  height: 150px;
+  background-color: var(--front-color);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.smalldatacardleft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.smalldatacardright {
+  width: 50%;
+}

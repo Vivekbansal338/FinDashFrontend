@@ -33,7 +33,7 @@ export const { loginSuccess, loginFailure, logoutSuccess } = authSlice.actions;
 export const login = (email, password) => async (dispatch) => {
   try {
     const response = await fetch(
-      `http://fin-dash-backend.vercel.app/api/v1/users/login`,
+      `https://fin-dash-backend.vercel.app/api/v1/users/login`,
       {
         method: "POST",
         headers: {
@@ -64,7 +64,7 @@ export const logout = () => async (dispatch) => {
 export async function signup(signupdata) {
   try {
     const response = await fetch(
-      `http://fin-dash-backend.vercel.app/api/v1/users/signup`,
+      `https://fin-dash-backend.vercel.app/api/v1/users/signup`,
       {
         method: "POST",
         headers: {
